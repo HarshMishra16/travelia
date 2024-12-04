@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelia - Explore the world</title>
+    <meta name="title" content="Travelia - Explore the world">
+    <meta name="description" content="Travelia is an HTML template made by Harsh">
+    <link rel="shortcut icon" href="Travelia\favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preload" as="image"  href="Travelia\assets\images\hero-banner.png">
+    <link rel="preload" as="image"  href="Travelia\assets\images\preloader.svg">
+
+</head>
+<body>
+
+    <!---- preloader -->
+    <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <img src="Travelia\assets\images\preloader.svg" class="img" alt="" width="50" height="50">
+        </div>
+    </div>
+
+    <header class="header active" data-header>
+        <div class="container">
+            <a href="#" class="logo" width="187" height="38" >
+                <img src="Travelia\assets\images\logo.svg " width="187" height="38" alt="logo">
+            </a>
+            <nav class="navbar " data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                <img src="Travelia\assets\images\logo.svg " width="187" height="38"  alt="logo">
+                    </a>
+                    <button class="nav-toggle-btn" aria-label="close menu" datap-nav-toggler><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></button>
+                </div>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Services</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Pricing</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="header-action">
+                    <a href="#" class="login-btn">Login</a>
+                    <a href="#" class="btn btn-primary">Sign Up</a>
+                </div>
+            </nav>
+            <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </button>
+
+            <div class="overlay" data-overlay data-nav-toggler></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="section hero has-bg-image" aria-label="hero" style="background-image: url('Travelia\assets\images\hero-bg.jpg');">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">
+                            Explore the World <img src="Travelia\assets\images\title-icon.svg" alt="world-icon" width="20" height="20" class="img">
+                        </p>
+
+                        <h1 class="h1 title hero-title">It’s a Big World Out There, Go Explore</h1>
+                        <p class="hero-text">We always make our customer happy by providing
+                            as many choices as possible</p>
+                            <div class="wrapper">
+                                <a href="#" class="btn btn-secondary">
+                                <span class="span">Plan a Trip </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#fff"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+                            </a>
+
+                            <button class="hero-btn">
+                                <div class="btn-image">
+                                    <img src="Travelia\assets\images\hero-button-img.jpg" width="100" height="100" alt="our story" class="img-cover">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" color="#000000" fill="none">
+                                        <path d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <p class="text">Watch our Story</p>
+                            </button>
+                            </div>
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="Travelia\assets\images\hero-banner.png" alt="" width="631" height="735"  class="w-100">
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section service" aria-label="service">
+                <div class="container">
+                    <div class="title-wrapper">
+
+                        <p class="section-subtitle">
+                            What We Serve 
+                        </p>
+                        <h2 class="h2 title section-title">
+                            Top Values For You 
+                        </h2>
+                        <p class="section-text">
+                            Try a variety of benefits when 
+                            using our services.
+                        </p>
+
+                    </div>
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="Travelia\assets\images\service-icon-1.svg" width="60" loading="lazy" height="60" alt="icon">
+                        </div>
+                        <h3 class="h3 title card-title">Lot Of Choices </h3>
+
+                        <p class="card-text">
+                            Total 460+ destinations that we work with.
+                        </p>
+
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="Travelia\assets\images\service-icon-2.svg" width="60" loading="lazy" height="60" alt="icon">
+                        </div>
+                        <h3 class="h3 title card-title">Best Tour Guide </h3>
+
+                        <p class="card-text">
+                            Our tour guide with 15+ years of experience.
+                        </p>
+                        
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="Travelia\assets\images\service-icon-3.svg" width="60" loading="lazy" height="60" alt="icon">
+                        </div>
+                        <h3 class="h3 title card-title">Easy Booking </h3>
+
+                        <p class="card-text">
+                            With an easy and fast ticket purchase process.
+                        </p>
+                        
+                    </div>
+
+                  
+
+                </div>
+
+            </section>
+
+            <section class="section desti" aria-label="destination">
+                <div class="container">
+                    <p class="section subtitle">Top destination</p>
+                    <h2 class="h2 section-title">Explore Top Destination</h2>
+                    <ul class="desti-list">
+
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width:600 ;--height:650 ;">
+                                    <img src="Travelia\assets\images\destination-1.jpg" alt="Enjoy the Beauty of the del Pincio" loading="lazy" width="600" height="650" class="img-cover">
+                                    <span class="card-price">$340</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Enjoy the Beauty of the del Pincio</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Rome, Italy
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                                            4.7
+
+                                        </span>
+                                        <p class="rating-text">
+                                            (11.1k Review)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width:600 ;--height:650 ;">
+                                    <img src="Travelia\assets\images\destination-2.jpg" alt="Enjoy the Beauty of the del Pincio" loading="lazy" width="600" height="650" class="img-cover">
+                                    <span class="card-price">$340</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Enjoy the Beauty of the Pakistan Monument</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Islamabad, Pakistan
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                                            4.6
+
+                                        </span>
+                                        <p class="rating-text">
+                                            (16.9k Review)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width:600 ;--height:650 ;">
+                                    <img src="Travelia\assets\images\destination-3.jpg" alt="Enjoy the Beauty of the del Pincio" loading="lazy" width="600" height="650" class="img-cover">
+                                    <span class="card-price">$340</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Enjoy the Beauty of the Burj Khalifa</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Skyscraper in Dubai
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                                            4.7
+                                            
+
+                                        </span>
+                                        <p class="rating-text">
+                                            (120k Review)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width:600 ;--height:650 ;">
+                                    <img src="Travelia\assets\images\destination-4.jpg" alt="Enjoy the Beauty of the del Pincio" loading="lazy" width="600" height="650" class="img-cover">
+                                    <span class="card-price">$340</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Enjoy the Beauty of the Milaidhoo</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Island in the Maldives
+
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                                            4.7
+                                        </span>
+                                        <p class="rating-text">
+                                            (70 Review)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width:600 ;--height:650 ;">
+                                    <img src="Travelia\assets\images\destination-5.jpg" alt="Enjoy the Beauty of the del Pincio" loading="lazy" width="600" height="650" class="img-cover">
+                                    <span class="card-price">$340</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Enjoy the Beauty of the Ko Tao</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Island in the Gulf of Thailand
+
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                                            4.5
+                                        </span>
+                                        <p class="rating-text">
+                                            (985 Review)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="desti-card">
+                                <div class="card-banner img-holder" style="--width:600 ;--height:650 ;">
+                                    <img src="Travelia\assets\images\destination-6.jpg" alt="Enjoy the Beauty of the del Pincio" loading="lazy" width="600" height="650" class="img-cover">
+                                    <span class="card-price">$340</span>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Enjoy the Beauty of the Grand Mecidiye Mosque</a>
+                                    </h3>
+                                    <address class="card-text">
+                                        Mosque in Istanbul, Türkiye
+
+                                    </address>
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"/></svg>
+                                            4.8
+                                        </span>
+                                        <p class="rating-text">
+                                            (28.6k Review)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                    
+                    <a href="#" class="btn btn-primary">View All Destination</a>
+                </div>
+            </section>
+
+            <!-- Experience-->
+             <section class="section exp">
+                <div class="container">
+                    <div class="exp-content">
+                        <p class="section-subtitle">
+                            Our Experience
+                        </p>
+                        <h2 class="h2 section-title">With our Experience We Will Serve You </h2>
+
+                        <p class="section-text">Since we first opened we have always prioritized the convenience of our users by providing low prices and with a easy process.</p>
+
+                        <ul class="exp-list">
+
+                            <li class="exp-item">
+                                <h3 class="h3 title item-title">20</h3>
+                                <p class="item-text">
+                                    Years <br>
+                                    Experience
+                                </p>
+                            </li>
+
+                            <li class="exp-item">
+                                <h3 class="h3 title item-title">460+</h3>
+                                <p class="item-text">
+                                    Destination <br> 
+                                    Collaboration
+                                </p>
+                            </li>
+
+                            <li class="exp-item">
+                                <h3 class="h3 title item-title">50K+</h3>
+                                <p class="item-text">
+                                    Happy <br>
+                                    Customer
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <figure class="exp-banner">
+                        <img src="Travelia\assets\images\experience-banner.png" width="550" height="660" loading="lazy" alt="experience banner" class="w-100">
+                        <img src="Travelia\assets\images\exp-shape.svg" width="75" height="109" loading="lazy"  alt="24/7 Guide Support" class="exp-shape">
+                    </figure>
+                </div>
+             </section>
+
+             <!--Gallery -->
+             <section class="section gallery">
+                <div class="container">
+                    <p class="section-subtitle">Photo Gallery </p>
+                    <h2 class="h2 title section-title">
+                        Photo's From Travelers
+                    </h2>
+                    <ul class="gallery-list">
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700 ; --height:925  ;">
+                                <img src="Travelia\assets\images\gallery-1.jpg" loading="lazy" width="700" height="925" alt="gallery" class="img-cover">
+
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700 ; --height:925  ;">
+                                <img src="Travelia\assets\images\gallery-2.jpg" loading="lazy" width="700" height="925" alt="gallery" class="img-cover">
+
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700 ; --height:925  ;">
+                                <img src="Travelia\assets\images\gallery-3.jpg" loading="lazy" width="700" height="925" alt="gallery" class="img-cover">
+
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700 ; --height:925  ;">
+                                <img src="Travelia\assets\images\gallery-4.jpg" loading="lazy" width="700" height="925" alt="gallery" class="img-cover">
+
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700 ; --height:925  ;">
+                                <img src="Travelia\assets\images\gallery-5.jpg" loading="lazy" width="700" height="925" alt="gallery" class="img-cover">
+
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="item-banner img-holder" style="--width:700 ; --height:925  ;">
+                                <img src="Travelia\assets\images\gallery-6.jpg" loading="lazy" width="700" height="925" alt="gallery" class="img-cover">
+
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+             </section>
+
+             <!--CTA -->
+             <section class="section cta">
+                <div class="container">
+                    <div class="cta-card has-bg-image" style="background-image: url('Travelia\assets\images\cta-bg.jpg');;">
+
+                        <h2 class="h2 title section-title">
+                            Prepare Yourself & Let’s Explore The Beauty Of The World
+
+                            <img src="Travelia\assets\images\title-icon.svg" loading="lazy" width="36" height="36"   alt="title icon" class="img">
+                        </h2>
+                         <p class="section-text">
+                        We have many special offers especially for you.
+
+                        </p>
+                        <a href="#" class="btn btn-primary">Get Started </a>
+                    </div>
+                </div>
+             </section>
+        </article>
+    </main>
+
+<!--Footer-->
+
+<footer class="footer">
+    <div class="container">
+
+    
+    <div class="footer-top">
+
+        <div class="footer-brand">
+        <a href="Travelia\assets\images\logo.svg" alt="logo" width="187" height="38"   class="logo">
+
+        </a>
+        <p  class="footer-list-title"> We always make our customer
+            happy by providing as many
+            choices as possible
+        </p>
+
+        <ul class="social-list">
+            <li>
+                <a href="#" class="social-link">
+            <svg  width="30" height="30"   role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="social-link">
+             <svg  width="30" height="30"   role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a>
+
+               
+            </li>
+
+            <li>
+                <a href="#" class="social-link">
+            <svg  width="30" height="30"     role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+        </a>
+
+                
+            </li>
+        </ul>
+    </div>
+
+    <ul class="footer-list">
+        <li>
+            <p  class="footer-list-title">
+                About
+            </p>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                About Us
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Features
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                News
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Menu
+            </a>
+        </li>
+
+        
+    </ul>
+
+    <ul class="footer-list">
+        <li>
+            <p  class="footer-list-title">
+                Company
+            </p>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Why Company
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Partner With Us
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                FAQ
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Blog
+            </a>
+        </li>
+
+        
+    </ul>
+
+    <ul class="footer-list">
+        <li>
+            <p  class="footer-list-title">
+                Support
+            </p>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Account
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Support Center
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Feedback
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Contact Us
+            </a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-link">
+                Accessibility
+            </a>
+        </li>
+        
+    </ul>
+
+    <div class="footer-list">
+        <p class="footer-list-title">Get in Touch</p>
+        <p class="footer-text">Question or feedback? We’d love to hear from you.</p>
+
+        <form action="" class="input-wrapper">
+            <input type="email" name="email_address" placeholder="Email Address" class="input-field"  autocomplete="off" required>
+            <button type="submit" class="input-btn" aria-label="send a message">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" color="#000000" fill="#000">
+                    <path d="M11.9854 15.4083L15.2268 19.0936C16.4277 20.4589 17.0282 21.1416 17.6567 20.9754C18.2852 20.8092 18.5008 19.9108 18.9318 18.1138L21.3229 8.1459C21.9868 5.37832 22.3187 3.99454 21.5808 3.312C20.843 2.62947 19.564 3.13725 17.0061 4.15282L5.13876 8.86449C3.09293 9.67674 2.07001 10.0829 2.00507 10.7808C1.99842 10.8522 1.99831 10.9241 2.00474 10.9955C2.06754 11.6937 3.08921 12.1033 5.13255 12.9223C6.05838 13.2934 6.5213 13.479 6.8532 13.8344C6.89052 13.8743 6.9264 13.9157 6.96078 13.9584C7.26658 14.3384 7.39709 14.8371 7.65808 15.8344L8.14653 17.701C8.4005 18.6715 8.52749 19.1568 8.86008 19.223C9.19267 19.2891 9.48225 18.8867 10.0614 18.0819L11.9854 15.4083ZM11.9854 15.4083L11.6676 15.0771C11.3059 14.7001 11.1251 14.5117 11.1251 14.2775C11.1251 14.0433 11.3059 13.8548 11.6676 13.4778L15.2406 9.75409" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>                
+            </button>
+        </form>
+    </div>
+
+</div>
+
+<div class="footer-bottom">
+    <p class="copyright">Copyright 2023. All rights reserved.</p>
+    <ul class="footer-bottom-list">
+        <li>
+            <a href="#" class="footer-bottom-link">Terms and Conditions</a>
+        </li>
+
+        <li>
+            <a href="#" class="footer-bottom-link">Privacy and Policy</a>
+        </li>
+    </ul>
+</div>
+</div>
+
+</footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
